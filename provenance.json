@@ -1,0 +1,22 @@
+{
+  "schema_version": 2,
+  "implementation": {
+    "upstream_semantic_reference": {
+      "repository": "https://github.com/facebookresearch/sparse-delta-memory",
+      "revision": "183e7df809131b80ad4393741029d0f20fc3640b"
+    }
+  },
+  "data": {
+    "source_repository": "https://huggingface.co/datasets/Salesforce/wikitext",
+    "source_revision": "5fddba447aa4e75996922ea0d6b18b42f0a81cc4",
+    "generated_manifest_sha256": "aedbd8e0188c1377eb3313bba56c1f0e97e2e79583b60506b11f22067e2f154d",
+    "train_stream_sha256": "567edc62db7882f2c69176215db23ba06c3b8443f4bf9363d9e0f89aa7fcb316",
+    "validation_stream_sha256": "05a6519598fb6bb77a8541933fd2a7cd69db8fd5ad33dadd57ce686dcf7752d4",
+    "test_stream_sha256": "56f9ff70776a35d689644535eb9b1b02eb3c3e7fb4df0c8a84d47b0fb5bde13f"
+  },
+  "included_measurements": {
+    "data/model.json": "51a3137ec4e55b6139ac76ff057c94ee2baa0425d24f495b3f44af936eabe7e7",
+    "data/trained_occupancy.csv": "652afa6ffe20f4515c651c29054c64746680ebb0ecab80fdf016db998dbf1b34",
+    "data/runtime.csv": "9334f075d1d1c9d73c24d479dae94a3c11ea0bcaa42b01caf3747c22edfa25c7"
+  }
+}

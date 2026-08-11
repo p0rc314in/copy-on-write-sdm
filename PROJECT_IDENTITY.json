@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "model_identity": {
+    "family": "native_sparse_delta_memory",
+    "upstream_repository": "https://github.com/facebookresearch/sparse-delta-memory",
+    "upstream_revision": "183e7df809131b80ad4393741029d0f20fc3640b",
+    "topology": "independent_per_layer",
+    "addressing": "product_key",
+    "mutation": "gated_delta",
+    "mutation_gate": "scalar_head",
+    "value_path": "projected",
+    "initial_memory": "learned_shared_model_state",
+    "read_order": "read_after_write",
+    "read_normalization": "layer_norm",
+    "output_gate": "channelwise",
+    "output_path": "projected"
+  }
+}

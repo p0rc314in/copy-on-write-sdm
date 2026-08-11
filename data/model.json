@@ -1,0 +1,23 @@
+{
+  "active_parameters": 14654556,
+  "causality_maximum_prefix_difference": 0.0,
+  "layout": "BBBBBBBA",
+  "learned_initial_state_parameters": 229376,
+  "logical_runtime_mutable_state_bytes_fp32": 917504,
+  "memory_heads": 1,
+  "memory_layers": 7,
+  "optimizer_seconds": 3900.9,
+  "optimizer_tokens_per_second": 16800,
+  "peak_gpu_memory_bytes": 3562000000,
+  "reads": 16,
+  "row_width": 128,
+  "seed": 0,
+  "slots": 256,
+  "test_nll": 5.45160,
+  "test_perplexity": 233.132,
+  "training_steps": 4000,
+  "training_tokens": 65536000,
+  "validation_nll": 5.44253,
+  "writes": 4
+}
+
